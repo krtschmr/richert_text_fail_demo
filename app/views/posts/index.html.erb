@@ -1,0 +1,7 @@
+Fakey Index Page
+<hr />
+
+<%=form_with model: Post.new do |form| %>
+  <%= form.label :body %>
+  <%= form.richer_text_area :body %>
+<%- end %>
